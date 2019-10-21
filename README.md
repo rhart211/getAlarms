@@ -1,7 +1,7 @@
 # getAlarms
 
 ## Introduction
-The main purpose of this tool is to list and count the number of times each configured alarm has been triggered in McAfee ESM.
+The main purpose of this tool is to list and count the number of times each configured alarm in McAfee ESM has been triggered.
 
 ## Dependencies
 Requires [requests](https://github.com/requests/requests)
