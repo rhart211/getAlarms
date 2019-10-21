@@ -38,7 +38,9 @@ optional arguments:
                         CURRENT_YEAR
                         PREVIOUS_YEAR
   -c Custom Time Range, --custom_timerange Custom Time Range
-                        Make sure to include both start and end times in the following format (remember the space between each time and                         enclose within double quotes): 2019-01-01T00:00:00Z 2019-01-01T23:59:59Z
+                        Make sure to include both start and end times in the following format 
+                        (remember the space between each time and enclose within double quotes): 
+                        2019-01-01T00:00:00Z 2019-01-01T23:59:59Z
 
 ESM Options:
   -e ESM HOSTNAME, --esm ESM HOSTNAME
