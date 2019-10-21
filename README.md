@@ -7,10 +7,9 @@ The main purpose of this tool is to list and count the number of times each conf
 Requires [requests](https://github.com/requests/requests)
 
 ## Usage
-To use this tool:
-  run `python getAlarms.py`
+To get the usage for this tool:
+  run `python getAlarms.py -h`
 
-You can also get to help by using -h switch:
 ```
 usage: getAlarms.py [-h] -e ESM HOSTNAME -u ESM User [-p ESM Password]
                     [-s Standard Time Range | -c Custom Time Range]
@@ -50,3 +49,13 @@ ESM Options:
   -p ESM Password, --esm_password ESM Password
                         ESM User Password
 ```
+
+## Usage Examples:
+
+### Specifying the User Password
+`python getAlarms.py -e ESM IP or FQDN -u my_user -p my_password -s CURRENT_YEAR`
+
+### Without Specifying the User Password
+`python getAlarms.py -e ESM IP or FQDN -u my_user -s CURRENT_YEAR`\n
+- If no password is specified in the command line, the tool will prompt you for the specified user's password.
+
