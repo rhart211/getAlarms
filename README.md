@@ -56,6 +56,6 @@ ESM Options:
 `python getAlarms.py -e ESM IP or FQDN -u my_user -p my_password -s CURRENT_YEAR`
 
 ### Without Specifying the User Password
-`python getAlarms.py -e ESM IP or FQDN -u my_user -s CURRENT_YEAR`\n
+`python getAlarms.py -e ESM IP or FQDN -u my_user -s CURRENT_YEAR`
 - If no password is specified in the command line, the tool will prompt you for the specified user's password.
 
